@@ -1,4 +1,4 @@
-import { Cpu, Github, Linkedin, Mail, Twitter } from "lucide-react"
+import { Cpu, Github, Linkedin, Mail, Twitter, Phone, MapPin } from "lucide-react"
 
 const Footer = () => {
   return (
@@ -33,7 +33,15 @@ const Footer = () => {
             <ul className="space-y-2 text-text-muted">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary-cyan" />
-                info@nexabyte.com
+                jctec050@gmail.com
+              </li>
+              <li className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary-cyan" />
+                +595 976 392 214
+              </li>
+              <li className="flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-primary-cyan" />
+                Hernandarias - Alto Parana
               </li>
               <li className="flex gap-4 mt-4">
                 <a href="#" className="bg-white/5 p-2 rounded-full hover:bg-primary-cyan/20 hover:text-primary-cyan transition-colors">

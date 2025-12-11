@@ -125,9 +125,8 @@ const Home = () => {
               </Link>
             </div>
             <div className="flex-1 relative">
-              <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-sm p-8 flex items-center justify-center">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-cyan/20 to-primary-purple/20 animate-pulse" />
-                <div className="text-9xl font-bold opacity-10 select-none">NB</div>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl shadow-primary-cyan/20 flex items-center justify-center bg-gradient-to-br from-[#003B4D] to-[#2E1065]">
+                <div className="text-[12rem] font-bold text-white/10 select-none">NB</div>
               </div>
             </div>
           </div>
